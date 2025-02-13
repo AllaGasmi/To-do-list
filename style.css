@@ -1,0 +1,14 @@
+body{
+    background-color: grey;
+    
+
+}
+button{
+    background-color: blue;
+    margin-top: 10px;
+}
+.tache{
+    margin-top:10px;
+    background-color: white;
+    text-align: left;
+}
