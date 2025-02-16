@@ -13,8 +13,9 @@ bouton.addEventListener('click', () => {
     let ch = nom1 + ":" + content1+'    ';
     tache.innerText = ch;
     tache.innerHTML +=`<img src='trash3.svg'>`;
-    
     liste.append(tache);
+    nom.value = "";
+    content.value = "";
 })
 
 liste.addEventListener('click', (e) => {
